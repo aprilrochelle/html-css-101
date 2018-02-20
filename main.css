@@ -1,0 +1,162 @@
+/* General Styles ________________________ */
+
+* {
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    background-color: #bebcad;
+    position: relative;
+}
+
+h1 {
+    padding-left: 15px;
+    line-height: 30px;
+    background: repeating-linear-gradient(
+        -45deg,
+        rgba(0,0,0,0),
+        rgba(0,0,0,0) 2px,
+        rgba(0,0,0,0.1) 2px,
+        rgba(0,0,0,0.1) 4px
+    )
+}
+
+ul {
+    list-style: none;
+}
+
+li {
+    border-bottom: dotted 1px black;
+    margin: 10px 0 0 8px;
+}
+
+h3 {
+    margin-top: 30px;
+    margin-left: 15px;
+    color: #574d33;
+    text-transform: uppercase;
+    font-size: 14px;
+}
+
+.left-article p {
+    margin: 5px 30px 15px 30px;
+    text-align: justify;
+    color: #786A47;
+}
+
+footer {
+    background-color: #679dc0;
+    line-height: 34px;
+    text-align: center;
+}
+
+/* Grid Styles __________________________ */
+
+.main-container {
+    width: 60%;
+    margin: 0 auto;
+    position: relative;
+}
+
+.column-container {
+    display: table;
+}
+
+.left-column {
+    width: 70%;
+    background-color: #e9e9e7;
+}
+
+.right-column {
+    width: 30%;
+    background-color: #998a67;
+    position: relative;
+}
+
+.column {
+    display: table-cell;
+}
+
+.float-left {
+    text-align: left;
+    margin: 30px 0 0 30px;
+    font-weight: 600;
+}
+
+.float-right {
+    text-align: right;
+    margin: 10px 30px 0 0;
+    font-weight: 600;
+}
+
+#summary p {
+    text-align: right;
+    margin: 20px 30px 10px 0;
+}
+
+#authors p {
+    text-align: center;
+    margin-top: 50px;
+    padding-bottom: 150px;
+    margin-bottom: 0;
+}
+
+#authors {
+    background-image: url("https://raw.githubusercontent.com/nss-evening-cohort-7/css-lecture/master/grass.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+/* Right Column Styling___________________ */
+
+.right-column li a {
+    font-weight: bold;
+    color: #e5d9bc;
+    list-style-position: inside;
+    display: list-item;
+    list-style-type: disc;
+}
+
+.right-column li a:hover {
+    color: #7ecdff;
+}
+
+.right-column li a.designer-name {
+    font-weight: normal;
+    color: #595339;
+    display: inline;
+    text-decoration: none;
+}
+
+.right-column li a.designer-name:hover {
+    color: #7ecdff;
+}
+
+/* Image Styles ________________________ */
+
+img {
+    width: 100%;
+    display: inherit;
+}
+
+/* Custom Styles ________________________ */
+
+.whole-div-shadow {
+    box-shadow: 0 0 10px #999;
+}
+
+.title {
+    font-size: 25px;
+    color: #d8d6c7;
+    transform: rotate(-90deg);
+    transform-origin: top left;
+    position: absolute;
+    left: 15px;
+    top: 260px;
+}
+
+.footer-claw{
+    position: absolute;
+    bottom: 0;
+}
